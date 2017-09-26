@@ -1,5 +1,7 @@
 ﻿using Xamarin.Forms;
 
+using NF.Views;
+
 namespace NF
 {
     public partial class App : Application
@@ -8,7 +10,7 @@ namespace NF
         {
             InitializeComponent();
 
-            MainPage = new NFPage();
+            MainPage = new MemberListPage();
         }
 
         protected override void OnStart()
